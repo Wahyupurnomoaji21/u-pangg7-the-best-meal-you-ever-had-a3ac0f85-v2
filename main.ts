@@ -37,6 +37,9 @@ function checkEntry(text: string): void {
   if (text.trim().length === 0) {
     throw new Error("entry contains only whitespace");
   }
+  if (text !== text.trim()) {
+    throw new Error("entry must not start or end with whitespace");
+  }
   if (text.includes("\n") || text.includes("\r")) {
     throw new Error("entry must fit on exactly one line");
   }
