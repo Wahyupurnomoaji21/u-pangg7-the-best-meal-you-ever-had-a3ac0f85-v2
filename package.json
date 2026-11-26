@@ -1,0 +1,1 @@
+{"description":"The Best Meal You Ever Had — make.fun entry v2","engines":{"node":">=22"},"license":"MIT","name":"u-pangg7-the-best-meal-you-ever-had-a3ac0f85-v2","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"2.0.0"}
